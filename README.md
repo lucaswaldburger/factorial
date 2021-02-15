@@ -7,7 +7,7 @@ This is a command-line utility that computes factorials.
 
 ```
 make clean
-make && make install 
+make && sudo make install 
 ```
 
 You will need `cargo` (Rust utility).
