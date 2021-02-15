@@ -7,16 +7,14 @@ This is a command-line utility that computes factorials.
 
 ```
 make clean
-make build
-export DESTDIR="/" #will install to ${DESTDIR}/usr/bin
-make install 
+make && make install 
 ```
 
 You will need `cargo` (Rust utility).
 
 ## Usage
 
-Once installed, you can run `factorial n` for any non-negative integer to compute it's factorial.
+Once installed, you can run `factorial n` for any non-negative integer to compute its factorial.
 
 Examples:
 ```
@@ -28,3 +26,6 @@ $ factorial 171
 mathematically infinite
 ```
 
+## Mathematics
+
+I would like to thank [this website](https://web.archive.org/web/20201023034806/https://visualfractions.com/calculator/factorial/what-is-the-factorial-of-170/) for teaching me how to calculate a factorial.

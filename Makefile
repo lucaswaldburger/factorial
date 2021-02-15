@@ -1,9 +1,6 @@
 BIN = $(DESTDIR)/usr/bin
-.PHONY: dummy clean build install
-all: dummy
-
-dummy:
-	@echo "Hi I'm dum"
+.PHONY: all clean build install
+all: build
 
 clean:
 	@echo "Factorial's make clean is being run"
